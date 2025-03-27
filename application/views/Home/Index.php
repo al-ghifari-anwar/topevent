@@ -158,13 +158,13 @@
                             <label for="">Klik untuk mendownload</label>
                             <div class="row">
                                 <div class="col-6">
-                                    <a href="<?= base_url('assets/img/top_icon.png') ?>" target="_blank">
-                                        <img src="<?= base_url('assets/img/top_icon.png') ?>" alt="" class="img-thumbnail" download="top_icon.png">
+                                    <a href="<?= base_url('assets/img/top_icon.png') ?>" target="_blank" download="top_icon.png">
+                                        <img src="<?= base_url('assets/img/top_icon.png') ?>" alt="" class="img-thumbnail">
                                     </a>
                                 </div>
                                 <div class="col-6">
-                                    <a href="<?= base_url('assets/img/top_long.png') ?>" target="_blank">
-                                        <img src="<?= base_url('assets/img/top_long.png') ?>" alt="" class="img-thumbnail" download="top_long.png">
+                                    <a href="<?= base_url('assets/img/top_long.png') ?>" target="_blank" download="top_long.png">
+                                        <img src="<?= base_url('assets/img/top_long.png') ?>" alt="" class="img-thumbnail">
                                     </a>
                                 </div>
                             </div>

@@ -1,9 +1,9 @@
-<section>
+<section class="">
     <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4 col-md-4 col-lg-4">
             <img src="<?= base_url('assets/img/ketentuan.png') ?>" alt="" class="img-fluid">
         </div>
-        <div class="col-8">
+        <div class="col-sm-8 col-lg-8">
             <div class="container my-3">
                 <?php if ($this->session->flashdata('success')) : ?>
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -21,11 +21,15 @@
                         </button>
                     </div>
                 <?php endif; ?>
-                <div class="card">
-                    <div class="card-body">
-                        <div class="d-flex">
-                            <h3>Lomba Video Komedi Tukang by</h3>&nbsp;&nbsp;
-                            <img src="assets/img/top_long.png" alt="" width="180">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <h6>Lomba Video Komedi Tukang by</h6>&nbsp;
+                                    <img src="assets/img/top_long.png" alt="" width="180">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -38,7 +42,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
                         <div class="card bg-maroon text-white">
                             <div class="card-body">
                                 <small><b>27 Maret s/d 13 April 2025</b></small>
@@ -46,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card bg-purple text-white">
                             <div class="card-body">
                                 <small><b>14 April s/d 16 April 2025</b></small>
@@ -55,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card bg-teal text-white">
                             <div class="card-body">
                                 <small><b>16 April 2025</b></small>

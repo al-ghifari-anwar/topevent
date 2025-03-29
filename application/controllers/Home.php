@@ -54,6 +54,7 @@ class Home extends CI_Controller
 
         $topeventData = [
             'content_topevent' => $post['content_topevent'],
+            'updated_at' => date("Y-m-d H:i:s"),
         ];
 
         $topevent = $this->db->get_where('tb_topevent', ['phone_topevent' => $phone_topevent])->row_array();

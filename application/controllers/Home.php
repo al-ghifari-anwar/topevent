@@ -59,7 +59,7 @@ class Home extends CI_Controller
         $topevent = $this->db->get_where('tb_topevent', ['phone_topevent' => $phone_topevent])->row_array();
 
         if ($topevent) {
-            $save = $this->db->insert('tb_topevent', $topeventData);
+            $save = $this->db->update('tb_topevent', $topeventData, ['phone_topevent' => $phone_topevent]);
 
             if ($save) {
                 $this->session->set_flashdata('success', "Berhasil mengirim konten, terimakasih!");
